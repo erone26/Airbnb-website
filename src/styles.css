@@ -1,0 +1,77 @@
+body{
+  margin: 0;
+}
+
+nav{
+  height: 50px;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+nav > img{
+  height: 5ch;
+}
+
+.hero > img{
+  height: 36ch;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.hero-h1{
+  font-family: "Poppins";
+  font-weight: bold;
+  padding-left: 23px;
+  
+}
+
+.hero-p{
+  font-family: "Poppins";
+  padding-left: 23px;
+  max-width: 350px;
+  color: grey;
+}
+
+.card-image1{
+  height: 30ch;
+  padding-left: 20px;
+  margin-top: 20px;
+
+}
+
+.star{
+  height: 1.7ch;
+  padding-left: 25px;
+  padding-top:  1.5px;
+  padding-right: 15px;
+  
+}
+.card-info{
+  display: flex;
+  
+}
+.card-info > span{
+  width: 25px;
+}
+.image-p{
+  font-family: "Poppins";
+  color: grey;
+  padding-right: 40px;
+}
+
+.title-price{
+  padding-left: 2ch;
+}
+
+.card-elements{
+  display: flex;
+  justify-content: space-evenly; 
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(./Poppins/Poppins-Medium.ttf);
+}
